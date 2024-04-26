@@ -1,9 +1,7 @@
-#ifndef COMMAND_H
-#define COMMAND_H
+#ifndef COMMAND_H_
+#define COMMAND_H_
 
 class Command {
 public:
-	void add(int x, int y); // ½ÃÇè¿ë
 };
-
-#endif // COMMAND_H_
+#endif 
