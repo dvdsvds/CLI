@@ -30,4 +30,21 @@ public:
 	
 };
 
+class HCommand {
+public:
+	void printlcf();
+	void printmp();
+	void printcd();
+	void printofc();
+	void printsf();
+	void printcf();
+	void printmf();
+	void printdf();
+	void printmcf();
+	void printmcd();
+	// void printbf();
+	// void printre();
+	// void printtf();
+};
+
 #endif 

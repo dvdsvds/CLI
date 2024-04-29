@@ -57,3 +57,43 @@ void fCommand::makeACopyFile(string fileName) {
 void fCommand::makeACopyDir(string dirName) {
 
 }
+
+void HCommand::printlcf() {
+
+}
+
+void HCommand::printmp() {
+
+}
+
+void HCommand::printcd() {
+
+}
+
+void HCommand::printofc() {
+
+}
+
+void HCommand::printsf() {
+
+}
+
+void HCommand::printcf() {
+
+}
+
+void HCommand::printmf() {
+
+}
+
+void HCommand::printdf() {
+
+}
+
+void HCommand::printmcf() {
+
+}
+
+void HCommand::printmcd() {
+
+}
