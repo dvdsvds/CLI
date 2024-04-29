@@ -24,6 +24,15 @@ int main() {
 			tokens.push_back(token);
 		}
 		
+		if (!tokens.empty()) {
+			if (tokens[0] == "help") {
+				
+			}
+
+		}
+		else {
+
+		}
 
 	}
 	return 0;
