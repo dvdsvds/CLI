@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include "command.h"
 
 using namespace std;
-namespace c = command;
 
 void bCommand::clearConsole() {
 
@@ -12,6 +12,7 @@ void bCommand::clearConsole() {
 void bCommand::printHelp() {
 
 }
+
 
 void bCommand::exitProgram() {
 

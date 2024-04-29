@@ -26,7 +26,9 @@ int main() {
 		
 		if (!tokens.empty()) {
 			if (tokens[0] == "help") {
-				
+				if (tokens[1] == "/?" || tokens[1] == "?") {
+					
+				}
 			}
 
 		}
