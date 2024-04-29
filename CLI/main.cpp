@@ -9,6 +9,9 @@ namespace fs = filesystem;
 using namespace fs;
 
 int main() {
+	bCommand bc;
+	fCommand fc;
+	hCommand hc;
 
 	while (1) {
 		string command;
@@ -24,11 +27,8 @@ int main() {
 			tokens.push_back(token);
 		}
 		
-		if (!tokens.empty()) {
+		if (!(tokens.empty())) {
 			if (tokens[0] == "help") {
-				if (tokens[1] == "/?" || tokens[1] == "?") {
-					
-				}
 			}
 
 		}

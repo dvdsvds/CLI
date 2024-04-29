@@ -58,42 +58,46 @@ void fCommand::makeACopyDir(string dirName) {
 
 }
 
-void HCommand::printlcf() {
+void hCommand::printhp() {
+	cout << "This is explain window of Help command" << endl;
+}
+
+void hCommand::printlcf() {
 
 }
 
-void HCommand::printmp() {
+void hCommand::printmp() {
 
 }
 
-void HCommand::printcd() {
+void hCommand::printcd() {
 
 }
 
-void HCommand::printofc() {
+void hCommand::printofc() {
 
 }
 
-void HCommand::printsf() {
+void hCommand::printsf() {
 
 }
 
-void HCommand::printcf() {
+void hCommand::printcf() {
 
 }
 
-void HCommand::printmf() {
+void hCommand::printmf() {
 
 }
 
-void HCommand::printdf() {
+void hCommand::printdf() {
 
 }
 
-void HCommand::printmcf() {
+void hCommand::printmcf() {
 
 }
 
-void HCommand::printmcd() {
+void hCommand::printmcd() {
 
 }

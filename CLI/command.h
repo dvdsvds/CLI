@@ -3,6 +3,8 @@
 
 #include <string>
 
+using namespace std;
+
 // Basic commands of CLI
 class bCommand {
 public:
@@ -30,8 +32,9 @@ public:
 	
 };
 
-class HCommand {
+class hCommand {
 public:
+	void printhp();
 	void printlcf();
 	void printmp();
 	void printcd();
