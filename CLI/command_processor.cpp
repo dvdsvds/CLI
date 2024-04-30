@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "command.h"
 #include "command_processor.h"
 
