@@ -10,7 +10,6 @@ void bCommand::printHelp() {
 }
 
 void bCommand::listOfCurrentDir() {
-
 	
 }
 
