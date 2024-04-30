@@ -5,28 +5,19 @@
 
 using namespace std;
 
-void bCommand::clearConsole() {
-
-}
-
 void bCommand::printHelp() {
-
+	// print explain of commands
 }
 
-
-void bCommand::exitProgram() {
-
-}
-
-void bCommand::listOfFiles() {
-
+void bCommand::listOfCurrentDir() {
+	
 }
 
 void bCommand::movePath(string dirPath) {
 
 }
 
-void bCommand::createDirectory(string newDirName) {
+void bCommand::createDirectoryOrFile(string newName) {
 
 }
 

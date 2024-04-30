@@ -8,12 +8,10 @@ using namespace std;
 // Basic commands of CLI
 class bCommand {
 public:
-	void clearConsole();
 	void printHelp();
-	void exitProgram();
-	void listOfFiles();
+	void listOfCurrentDir();
 	void movePath(string dirPath);
-	void createDirectory(string newDirName);
+	void createDirectoryOrFile(string newName);
 	void outputFileContent();
 	void searchFile(string fileName);
 };
