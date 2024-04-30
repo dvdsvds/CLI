@@ -3,15 +3,14 @@
 #include <vector>
 #include <filesystem>
 #include "command.h"
+#include "command_processor.h"
 
 using namespace std;
 namespace fs = filesystem;
 using namespace fs;
 
 int main() {
-	bCommand bc;
-	fCommand fc;
-	hCommand hc;
+	CommandProcessor command_processor;
 
 	while (1) {
 		string command;
@@ -27,41 +26,7 @@ int main() {
 			tokens.push_back(token);
 		}
 		
-		//askfjlsdf
-		if (!(tokens.empty())) {
-			if (tokens[0] == "help") {
-				if (tokens.size() >= 2 && tokens[1] == "/?") {
-					hc.printhp();
-				}
-				else {
-					bc.printHelp();
-				}
-			}
-			else if (tokens[0] == "cc") {
-				cout << "\033[2J\033[H";
-			}
-			else if (tokens[0] == "exit") {
-				exit(0);
-			}
-			else if (tokens[0] == "lcf") {
-				bc.listOfCurrentDir();
-			}
-			else if (tokens[0] == "mp") {
-
-			}
-			else if (tokens[0] == "cd") {
-			}
-			else if (tokens[0] == "ofc") {
-
-			}
-			else if (tokens[0] == "sf") {
-
-			}
-		}
-		else {
-
-		}
-
+		command_processor.ProcCommand(tokens);
 	}
 	return 0;
 
