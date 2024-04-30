@@ -27,6 +27,7 @@ int main() {
 			tokens.push_back(token);
 		}
 		
+		//askfjlsdf
 		if (!(tokens.empty())) {
 			if (tokens[0] == "help") {
 				if (tokens.size() >= 2 && tokens[1] == "/?") {
