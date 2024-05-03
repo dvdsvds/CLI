@@ -11,10 +11,11 @@ using namespace fs;
 
 int main() {
 	CommandProcessor command_processor;
+	path currentPath = current_path(); 
 
 	while (1) {
 		string command;
-		cout << ">";
+		cout << "[" << currentPath.string() << "]>";
 		getline(cin, command);
 
 		istringstream iss(command);

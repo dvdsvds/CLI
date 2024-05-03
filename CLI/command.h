@@ -9,7 +9,7 @@ using namespace std;
 // Basic commands of CLI
 class bCommand {
 public:
-	void printHelp();
+	void help();
 	void listOfCurrentDir();
 	void movePath(string dirPath);
 	void createDirectoryOrFile(string newName);

@@ -1,13 +1,20 @@
 #include "command.h"
+#include <filesystem>
 
 using namespace std;
+namespace fs = filesystem;
+using namespace fs;
 
-void bCommand::printHelp() {
+path currentPath = current_path();
+
+void bCommand::help() {
 	// print explain of commands
 }
 
 void bCommand::listOfCurrentDir() {
-	
+	for (const auto& entry : directory_iterator(currentPath)) {
+		cout << entry.path().filename().string() << endl;
+	}
 }
 
 void bCommand::movePath(string dirPath) {
