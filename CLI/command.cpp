@@ -10,6 +10,7 @@ void bCommand::printHelp() {
 }
 
 void bCommand::listOfCurrentDir() {
+
 }
 
 void bCommand::movePath(string dirPath) {
