@@ -6,12 +6,10 @@
 using namespace std;
 
 void bCommand::printHelp() {
-	// print explain of commands
+
 }
 
 void bCommand::listOfCurrentDir() {
-
-
 }
 
 void bCommand::movePath(string dirPath) {
